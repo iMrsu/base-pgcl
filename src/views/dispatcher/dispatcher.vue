@@ -195,7 +195,7 @@ export default {
       console.log('下拉刷新')
       this.$el.querySelector('.load-more').style.display = ''
       this.pageNow = 1 //当前页等于1
-      this.getData()
+      // this.getData()
       done() // call done
     },
     //上滑加载
