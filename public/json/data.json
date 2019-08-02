@@ -1,0 +1,33 @@
+[{
+    "stationName": "仁和",
+    "message": "暂无车辆",
+    "isComing": "0"
+}, {
+    "stationName": "上海花园",
+    "message": "暂无车辆",
+    "isComing": "0"
+}, {
+    "stationName": "花城酒店",
+    "message": "车辆101（6:40）即将到站",
+    "isComing": "1"
+}, {
+    "stationName": "仁和",
+    "message": "车辆102（6:50）即将到站",
+    "isComing": "1"
+}, {
+    "stationName": "宝岛花园",
+    "message": "暂无车辆",
+    "isComing": "0"
+}, {
+    "stationName": "三医院",
+    "message": "暂无车辆",
+    "isComing": "0"
+}, {
+    "stationName": "四十九",
+    "message": "暂无车辆",
+    "isComing": "0"
+}, {
+    "stationName": "六零一",
+    "message": "车辆103（7:50）即将到站",
+    "isComing": "1"
+}]
