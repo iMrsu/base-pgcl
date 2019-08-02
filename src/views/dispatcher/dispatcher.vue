@@ -308,7 +308,7 @@ export default {
       })
     },
     /**
-     * 通过时间控件修改时 间时触发事件
+     * 通过时间控件修改时间时触发事件
      */
     rePost() {
       this.getData()
