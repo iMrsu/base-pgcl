@@ -4,9 +4,9 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 const port = 8080
 // const host = '192.168.2.186' //测试
-// const host = '10.128.252.25' //攀枝花
+
 const host = 'localhost' //攀钢
-// const host = '221.236.79.28' //攀钢
+
 const apiUrl = `http://${host}:${port}/app/`
 export default new Vuex.Store({
   state: {
