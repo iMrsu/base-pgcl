@@ -10,8 +10,6 @@ import store from './store'
 // eslint-disable-next-line no-unused-vars
 const Home = () => import('./views/home/home')
 const Index = () => import('./views/index.vue')
-/* "Dispatch" */
-const Dispatcher = () => import('./views/dispatcher/dispatcher')
 /*"Message" */
 const Message = () => import('./views/message/message')
 /* "Setting" */
@@ -31,11 +29,6 @@ const router = new Router({
           path: '/',
           name: 'home',
           component: Index
-        },
-        {
-          path: 'dispatcher',
-          name: 'dispatcher',
-          component: Dispatcher
         },
         {
           path: 'message',

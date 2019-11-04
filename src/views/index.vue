@@ -78,7 +78,6 @@ export default {
 body {
   background: rgba(250, 250, 250, 1) !important;
 }
-
 .icon {
   width: 1.7rem; /* 通过设置 font-size 来改变图标大小 */
   height: 1.7rem;
@@ -86,12 +85,6 @@ body {
   vertical-align: -0.5rem; /* 图标和文字相邻时，垂直对齐 */
   fill: currentColor; /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示 normalize.css 中也包含这行 */
   overflow: hidden;
-}
-.tabbar {
-  position: fixed;
-}
-.vux-header .vux-header-left .vux-header-back {
-  display: none;
 }
 .vux-pop-out-enter,
 .vux-pop-in-leave-active {
@@ -135,46 +128,10 @@ body {
 .weui-tabbar__item.weui-bar__item_on .weui-tabbar__label {
   color: rgba(75, 159, 223, 1) !important;
 }
-.weui-textarea {
-  height: 160px !important;
-}
-.weui-cells {
-  margin-top: 0 !important;
-  background: white !important;
-}
-.weui-cells__title {
-  text-align: center;
-  background: rgba(250, 250, 250, 1) !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-.weui-cells__title + .weui-cells {
-  padding: 0 1em;
-  background: rgba(250, 250, 250, 1) !important;
-}
-
-.vux-table th {
-  font-weight: bold !important;
-  padding-left: 1em;
-  text-align: left !important;
-}
-.vux-table td {
-  padding-left: 1em;
-  text-align: left !important;
-}
-.vux-check-icon > span {
-  padding-right: 0;
-}
-.weui-form-preview__hd {
-  display: none;
-}
+ 
 .weui-tabbar__label {
   margin: 0 !important;
   font-size: 12px !important;
 }
-.weui-tabbar__item {
-  padding: 8px 0 0 !important;
-}
+ 
 </style>
